@@ -19,7 +19,24 @@ public class FruitTest {
         Fruit mangoFruit = new Fruit("망고", 2000, 50, "high");
         Fruit orangeFruit = new Fruit("오랜지", 1000, 10, "high");
         Fruit grapeFruit = new Fruit("포도", 3000, 10, "low");
+
+        fruitList.add(appleFruit);
+        fruitList.add(bananaFruit);
+        fruitList.add(watermelonFruit);
+        fruitList.add(mangoFruit);
+        fruitList.add(orangeFruit);
+        fruitList.add(grapeFruit);
     }
+    @Test
+    public void testQualityOfFruit() {
+        assertThat(fruitList.get(0).getQuality(), is("high")); //테스트코드//
+    }
+
+    @Test
+    public void testPriceOfFruit() {
+        assertThat(fruitList.get(4).getPrice(), is(2000)); //테스트코드
+    }
+
 
 
 //    @Test
