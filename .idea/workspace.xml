@@ -4,6 +4,7 @@
     <list default="true" id="0ebc49b4-b69c-475b-85a7-18c117e667b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FruitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FruitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FruitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FruitTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,7 +18,7 @@
     <window id="1">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/java/Fruit.java">
                 <provider selected="true" editor-type-id="text-editor">
@@ -54,11 +55,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FruitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="418">
+              <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#270#277#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,6 +106,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,11 +149,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556538421130" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556540161954" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -175,22 +175,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FruitTest.testPriceOfFruit">
-    <configuration name="AccountTest.출금테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdddemo" />
+  <component name="RunManager" selected="JUnit.FruitTest.checkSaledFruit">
+    <configuration name="FruitTest.applyDiscountPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-demo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AccountTest" />
-      <option name="METHOD_NAME" value="출금테스트" />
+      <option name="MAIN_CLASS_NAME" value="FruitTest" />
+      <option name="METHOD_NAME" value="applyDiscountPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FruitTest.예금테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FruitTest.checkSaledFruit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-demo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FruitTest" />
-      <option name="METHOD_NAME" value="예금테스트" />
+      <option name="METHOD_NAME" value="checkSaledFruit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -228,10 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FruitTest.testPriceOfFruit" />
+        <item itemvalue="JUnit.FruitTest.checkSaledFruit" />
+        <item itemvalue="JUnit.FruitTest.applyDiscountPrice" />
         <item itemvalue="JUnit.FruitTest.testQualityOfFruit" />
+        <item itemvalue="JUnit.FruitTest.testPriceOfFruit" />
         <item itemvalue="JUnit.FruitTest.잔액보다큰금액은인출x" />
-        <item itemvalue="JUnit.FruitTest.예금테스트" />
       </list>
     </recent_temporary>
   </component>
@@ -249,27 +250,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountTest_예금테스트 - 2019.04.22 at 17h 24m 59s.xml">
-      <configuration name="AccountTest.예금테스트" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountTest_출금테스트 - 2019.04.22 at 17h 28m 23s.xml">
-      <configuration name="AccountTest.출금테스트" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountTest_잔액보다큰금액은인출x - 2019.04.22 at 17h 33m 20s.xml">
-      <configuration name="AccountTest.잔액보다큰금액은인출x" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FruitTest_testQualityOfFruit - 2019.04.29 at 20h 30m 36s.xml">
       <configuration name="FruitTest.testQualityOfFruit" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FruitTest_testPriceOfFruit - 2019.04.29 at 20h 30m 45s.xml">
       <configuration name="FruitTest.testPriceOfFruit" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FruitTest_testQualityOfFruit - 2019.04.29 at 21h 03m 33s.xml">
+      <configuration name="FruitTest.testQualityOfFruit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FruitTest_testQualityOfFruit - 2019.04.29 at 21h 03m 51s.xml">
+      <configuration name="FruitTest.testQualityOfFruit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FruitTest_checkSaledFruit - 2019.04.29 at 21h 05m 18s.xml">
+      <configuration name="FruitTest.checkSaledFruit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FruitTest_applyDiscountPrice - 2019.04.29 at 21h 05m 51s.xml">
+      <configuration name="FruitTest.applyDiscountPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FruitTest_applyDiscountPrice - 2019.04.29 at 21h 09m 14s.xml">
+      <configuration name="FruitTest.applyDiscountPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FruitTest_applyDiscountPrice - 2019.04.29 at 21h 09m 34s.xml">
+      <configuration name="FruitTest.applyDiscountPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FruitTest_checkSaledFruit - 2019.04.29 at 21h 09m 42s.xml">
+      <configuration name="FruitTest.checkSaledFruit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FruitTest_checkSaledFruit - 2019.04.29 at 21h 09m 56s.xml">
+      <configuration name="FruitTest.checkSaledFruit" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1052" y="0" width="875" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1595092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16319019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -278,7 +294,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295129" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32858709" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,11 +336,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FruitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="418">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#270#277#0" expanded="true" />
           </folding>
         </state>
       </provider>
