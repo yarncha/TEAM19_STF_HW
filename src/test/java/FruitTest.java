@@ -1,4 +1,4 @@
-import org.junit.Before;
+﻿import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -66,6 +66,23 @@ public class FruitTest {
     public void isManyKindOfFruit(){
         assertThat(fruitList.size(),is(1));
         verify(fruitList, times(1)).size();
+    }
+
+    //과일 가격보다 적은 가격을 받을 경우 테스트
+    @Test
+    public void testLessThanSalePriceCase() {
+        assertThat(fruitList.get(2).comparePrice(10000), is(false));
+    }
+
+    //특정 과일의 갯수를 제대로 반환하는지 테스트
+    @Test
+    public void testCheckCount() {
+        String fruitName = "포도";
+        int index = 0;
+        for (; index < fruitList.size(); index++) {
+            if (fruitList.get(index).getName() == fruitName) break;
+        }
+        assertThat(fruitList.get(index).getCount(), is(10));
     }
 
 
