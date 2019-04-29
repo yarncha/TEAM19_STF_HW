@@ -37,6 +37,25 @@ public class FruitTest {
         assertThat(fruitList.get(4).getPrice(), is(2000)); //테스트코드
     }
 
+    // 품질이 낮은 과일에 할인 적용
+    @Test
+    public void applyDiscountPrice(){
+        int testIndex = 1;
+        String quality = fruitList.get(testIndex).getQuality();
+        if(quality.equals("low")){
+            fruitList.get(testIndex).setPrice(fruitList.get(testIndex).getPrice()/2);
+        }
+    }
+
+    @Test
+    public void checkSaledFruit(){
+
+    }
+
+    @Test
+    public void lowSaleFruit(){
+
+    }
 
 
 //    @Test
