@@ -6,7 +6,7 @@ import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 public class FruitTest {
 
@@ -61,10 +61,11 @@ public class FruitTest {
         System.out.println("여기 바나나 있습니다. 감사합니다~");
     }
 
-    // 과일 다양성 테스트
+    // 과일 종류 다양성 테스트
     @Test
-    public void qwer(){
-
+    public void isManyKindOfFruit(){
+        assertThat(fruitList.size(),is(1));
+        verify(fruitList, times(1)).size();
     }
 
 
