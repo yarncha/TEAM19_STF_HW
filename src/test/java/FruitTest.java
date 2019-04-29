@@ -85,6 +85,41 @@ public class FruitTest {
         assertThat(fruitList.get(index).getCount(), is(10));
     }
 
+    //보유하고 있는 과일의 수보다 많은 양을 요구하여 에러처리 테스트
+    @Test(expected = IllegalArgumentException.class)
+    public void exceptionTestReqMoreCount() {
+        int index = 3;
+        int wantCount = 100;
+        if (fruitList.get(index).getCount() < wantCount) {
+            throw new IllegalArgumentException();
+        }
+
+    }
+
+    @Test
+    public void testReqNotExistFruit() {
+        boolean a = false;
+        for (int i = 0; i < fruitList.size(); i++) {
+            if (fruitList.get(i).getName() == "체리") {
+                a = true;
+                break;
+            }
+        }
+        assertThat(a, is(false));
+    }
+
+    @Test
+    public void testDeliveryOfFruitsAndCheckCount() {
+        int countOfFruitsDelivered = 120;
+
+        int index = 4;
+        fruitList.get(index).setCount(fruitList.get(index).getCount() + countOfFruitsDelivered);
+        assertThat(fruitList.get(index).getCount(), is(130));
+
+    }
+
+
+
 
 //    @Test
 //    public void 계좌신규생성() {
