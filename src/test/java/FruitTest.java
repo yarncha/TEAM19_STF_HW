@@ -6,6 +6,7 @@ import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
+import static org.mockito.Mockito.when;
 
 public class FruitTest {
 
@@ -47,13 +48,22 @@ public class FruitTest {
         }
     }
 
+    // 과일 판매
     @Test
     public void checkSaledFruit(){
+        int sellFruitIndex = 1;
+        int wantCount = 1;
+        System.out.println("바나나 "+wantCount+"개 사러 왔습니다!");
+        int recivedMoney = 1500;
+        System.out.println("여기 "+recivedMoney+"원이요.");
 
+        assertThat(fruitList.get(sellFruitIndex).getPrice()*wantCount, is(recivedMoney));
+        System.out.println("여기 바나나 있습니다. 감사합니다~");
     }
 
+    // 과일 다양성 테스트
     @Test
-    public void lowSaleFruit(){
+    public void qwer(){
 
     }
 
