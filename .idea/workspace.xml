@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ebc49b4-b69c-475b-85a7-18c117e667b5" name="Default Changelist" comment="" />
+    <list default="true" id="0ebc49b4-b69c-475b-85a7-18c117e667b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FruitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FruitTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,18 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tdddemo.iml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FruitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="38">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,6 +61,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -75,41 +83,58 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="88" />
+    <option name="y" value="35" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="furitdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="furitdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="TEAM19_STF_HW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEAM19_STF_HW" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="furitdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="furitdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="TEAM19_STF_HW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEAM19_STF_HW" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="furitdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="TEAM19_STF_HW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEAM19_STF_HW" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TEAM19_STF_HW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEAM19_STF_HW" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TEAM19_STF_HW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEAM19_STF_HW" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556536433643" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556537448483" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -132,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FruitTest.잔액보다큰금액은인출x">
+  <component name="RunManager" selected="JUnit.FruitTest.testPriceOfFruit">
     <configuration name="AccountTest.출금테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdddemo" />
       <option name="PACKAGE_NAME" value="" />
@@ -153,6 +178,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FruitTest.testPriceOfFruit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FruitTest" />
+      <option name="METHOD_NAME" value="testPriceOfFruit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FruitTest.testQualityOfFruit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FruitTest" />
+      <option name="METHOD_NAME" value="testQualityOfFruit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FruitTest.잔액보다큰금액은인출x" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-demo" />
       <option name="PACKAGE_NAME" value="" />
@@ -165,6 +210,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FruitTest.testPriceOfFruit" />
+        <item itemvalue="JUnit.FruitTest.testQualityOfFruit" />
         <item itemvalue="JUnit.FruitTest.잔액보다큰금액은인출x" />
         <item itemvalue="JUnit.FruitTest.예금테스트" />
       </list>
@@ -193,11 +240,18 @@
     <history-entry file="AccountTest_잔액보다큰금액은인출x - 2019.04.22 at 17h 33m 20s.xml">
       <configuration name="AccountTest.잔액보다큰금액은인출x" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FruitTest_testQualityOfFruit - 2019.04.29 at 20h 30m 36s.xml">
+      <configuration name="FruitTest.testQualityOfFruit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FruitTest_testPriceOfFruit - 2019.04.29 at 20h 30m 45s.xml">
+      <configuration name="FruitTest.testPriceOfFruit" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="977" height="1038" extended-state="0" />
+    <frame x="71" y="28" width="782" height="831" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24754634" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25484765" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -206,7 +260,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299435" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295129" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -214,7 +268,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3299435" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295129" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -226,23 +280,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Fruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FruitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -250,8 +287,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Fruit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tdddemo.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FruitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
