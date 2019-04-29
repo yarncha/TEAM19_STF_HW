@@ -9,7 +9,7 @@ public class Fruit {
     private int count;
     private String quality;
 
-    //°¡°Ý ºñ±³ ¸Þ¼Òµå
+    //ê°€ê²© ë¹„êµ ë©”ì†Œë“œ
     public boolean comparePrice(int customerMoney){
         if(customerMoney>=this.price){
             return true;
