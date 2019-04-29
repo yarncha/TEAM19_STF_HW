@@ -13,6 +13,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/main/java/Fruit.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="95">
+                    <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -32,22 +54,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FruitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="342">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#270#277#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Fruit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -83,10 +95,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="88" />
-    <option name="y" value="35" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="1052" />
+    <option name="width" value="875" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -94,7 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,6 +128,13 @@
               <item name="TEAM19_STF_HW" type="b2602c69:ProjectViewProjectNode" />
               <item name="TEAM19_STF_HW" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TEAM19_STF_HW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TEAM19_STF_HW" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -130,11 +148,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556537448483" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556538421130" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -248,10 +266,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="28" width="782" height="831" extended-state="0" />
+    <frame x="1052" y="0" width="875" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25484765" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1595092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -268,7 +286,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295129" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32858709" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -287,24 +305,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Fruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tdddemo.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FruitTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Fruit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FruitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#270#277#0" expanded="true" />
           </folding>
         </state>
       </provider>
